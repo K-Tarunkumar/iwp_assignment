@@ -1,0 +1,120 @@
+.top{
+    position: relative;
+    background-color: #ffffff;
+    height: 68px;
+    padding-top: 20px;
+	padding-left: 50px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.header{
+    width:100%;
+	height:50px;
+	background-color:orange;
+	padding-top:5px;
+	border:1px solid black;
+	
+}
+
+.side{
+   
+	background-color:yellow;
+	top:100px;
+	float: left;
+	position:relative-y;
+    border:3px solid black;
+}
+body {
+	margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  padding-left:160px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.sidemain{
+   padding-top:20px;
+}
+	
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 15px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.output_data{
+ padding-right:50px;
+ padding-left:50px;
+}
+.input_data{
+ padding-left:50px;
+
+}
+td {
+  border:1px solid #e74c3c;
+  width:50%;
+}
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+tr:nth-child(odd){background-color: #f2f2f2}
+.in_side{
+   border: 2px solid #f1c40f;
+}
+
+.table{
+	width:100%;
+}	
